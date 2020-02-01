@@ -1,0 +1,67 @@
+.main-page {
+    display: flex;
+    width: 2000px;
+    height: 1050px;
+    
+}
+
+.close-btn {
+    position: absolute;
+    left: 1940px;
+    top: 18px;
+}
+
+.gray-backdround {
+    position: absolute;
+}
+
+.cup-block {
+    position: absolute;
+    display: flex;
+    width: 2000px;
+    height: 1050px;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.confetti {
+    position: absolute;
+}
+
+.team-left {
+    position: absolute;
+}
+
+.team-right {
+    position: absolute;
+    left: 346px;
+}
+
+.text-in-midle {
+    position: absolute;
+    top: 270px;
+    left: 710px;
+
+    font-size: 175px;
+    font-weight: bold;
+    color: white;
+}
+
+/* .text-one {
+    height: 175px;
+    width: 760px;
+    color: white;
+} */
+
+.logo-left {
+    position: absolute;
+    top: 310px;
+    left: 188px;
+}
+
+.logo-right {
+    position: absolute;
+    top: 302px;
+    left: 1417px;
+}
