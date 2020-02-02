@@ -3,10 +3,10 @@ import {Animated} from "react-animated-css";
 import ReactPlayer from 'react-player';
 import './Video.css';
 
-import btnWatch from '../assets/iсons/btn_watch.png';
-import btnClose from '../assets/iсons/btn_close.png';
+import btnWatch from '../../assets/iсons/btn_watch.png';
+import btnClose from '../../assets/iсons/btn_close.png';
 import video from './video.mp4';
-import btnPlayIcon from '../assets/iсons/Play Button.png';
+import btnPlayIcon from '../../assets/iсons/Play Button.png';
 
 export default class Video extends Component {
 

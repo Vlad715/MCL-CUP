@@ -3,7 +3,7 @@ import MainPage from '../main-page';
 import Video from '../video';
 import './App.css';
 
-import backgroundPict from '../assets/screens/background.png';
+import backgroundPict from '../../assets/screens/background.png';
 
 export default class App extends Component {
 
