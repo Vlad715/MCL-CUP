@@ -2,15 +2,15 @@ import React from 'react';
 import {Animated} from "react-animated-css";
 import './MainPage.css';
 
-import closeBtnMain from './Main Close Btn.png';
-import cupHoist from './Cup Hoist.png';
-import grayBackground from './gray-background.png';
-import confetti from './confetti.png';
-import portland from './PORTLAND.png';
-import dallas from './DALLAS.png';
-import portlandLogo from './PORTLAND logo.png';
-import dallasLogo from './DALLAS logo.png';
-import mslBanner from './MLS banner.png';
+import closeBtnMain from '../assets/iсons/Main Close Btn.png';
+import cupHoist from '../assets/screens/Cup Hoist.png';
+import grayBackground from '../assets/screens/gray-background.png';
+import confetti from '../assets/screens/confetti.png';
+import portland from '../assets/screens/PORTLAND.png';
+import dallas from '../assets/screens/DALLAS.png';
+import portlandLogo from '../assets/iсons/PORTLAND logo.png';
+import dallasLogo from '../assets/iсons/DALLAS logo.png';
+import mslBanner from '../assets/screens/MLS banner.png';
 
 const MainPage = ({teamPhoto, onMainCloseBtn}) => {
     

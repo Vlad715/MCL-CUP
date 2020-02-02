@@ -12,8 +12,28 @@
     width: 240px;
 }
 
-.video {
+.video-block {
     position: absolute;
     top: 173px;
     left: 416px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 670px;
+    width: 1190px;
+}
+
+.video {
+    transform: scale(1.85);
+}
+
+.btn-play {
+    position: absolute;
+    z-index: 3;
+}
+
+.invisible  {
+    display: none;
 }

@@ -3,11 +3,13 @@
     src: url('DINNextLTPro-Heavy.otf');
 }
 
-.app-font {
+.container {
     font-family: DINNextLTPro-Heavy;
     font-weight: bold;
     color: #ffffff;
     font-size: 28px;
+
+    max-width: 2000px;
 }
 
 .invisible  {
