@@ -1,0 +1,15 @@
+@font-face {
+    font-family: DINNextLTPro-Heavy;
+    src: url('DINNextLTPro-Heavy.otf');
+}
+
+.app-font {
+    font-family: DINNextLTPro-Heavy;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 28px;
+}
+
+.invisible  {
+    display: none;
+}

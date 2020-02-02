@@ -1,0 +1,19 @@
+.btn-watch {
+    position: absolute;
+    top: 120px;
+    left: 1545px;
+    z-index: 2;
+}
+
+.text-watch {
+    position: absolute;
+    top: 241px;
+    left: 1490px;
+    width: 240px;
+}
+
+.video {
+    position: absolute;
+    top: 173px;
+    left: 416px;
+}

@@ -1,14 +1,14 @@
 .main-page {
-    display: flex;
-    width: 2000px;
-    height: 1050px;
-    
+    position: absolute;
+    left: 0px;
+    top: 0px;
 }
 
 .close-btn {
     position: absolute;
     left: 1940px;
-    top: 18px;
+    top: 10px;
+    z-index: 3;
 }
 
 .gray-backdround {
@@ -22,7 +22,6 @@
     height: 1050px;
     justify-content: center;
     align-items: flex-end;
-
 }
 
 .confetti {
@@ -31,37 +30,50 @@
 
 .team-left {
     position: absolute;
+    z-index: 2;
 }
 
 .team-right {
     position: absolute;
     left: 346px;
+    z-index: 2;
 }
 
 .text-in-midle {
     position: absolute;
-    top: 270px;
+    top: 230px;
     left: 710px;
-
-    font-size: 175px;
-    font-weight: bold;
-    color: white;
+    z-index: 2;
 }
 
-/* .text-one {
-    height: 175px;
-    width: 760px;
-    color: white;
-} */
+.text-one {
+    font-size: 308px;
+}
+
+.text-game {
+    font-size: 215px;
+    line-height: 30px;
+}
+
+.text-glory {
+    font-size: 123px;
+    line-height: 235px;
+}
 
 .logo-left {
     position: absolute;
     top: 310px;
     left: 188px;
+    z-index: 2;
 }
 
 .logo-right {
     position: absolute;
     top: 302px;
     left: 1417px;
+    z-index: 2;
+}
+
+.msl-banner {
+    position: absolute;
 }
